@@ -18,7 +18,7 @@ public class ShuttleDbConnection {
      private static Connection connection;
     private static final String DB_URL = "jdbc:mysql://localhost/shuttle";
     private static final String DB_USER="root";
-    private static final String DB_PASSWORD="admin";
+    private static final String DB_PASSWORD="";
     
     
     public static Connection getConnection() throws SQLException{
